@@ -21,7 +21,7 @@ function App() {
       
     const consultarAPI = async () => {
       console.log("consulta API.....");
-      const APIKEY  = '527659a424afa1c6f39a3abe3a8c76df';
+      const APIKEY  = '';
       // const APIKEY = '';
       const url     = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&APPID=${APIKEY}`;
       if(consume){
